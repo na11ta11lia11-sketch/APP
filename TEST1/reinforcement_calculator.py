@@ -154,6 +154,7 @@ def main():
     print(f"\nEffective depth d = {d:.2f} mm")
     
     # Calculate As
+    # Calculate As1
     As = calculate_reinforcement_area(M, b, d, fck, fy)
     if As is not None:
         print(f"Required reinforcement area As = {As:.2f} mm²")
